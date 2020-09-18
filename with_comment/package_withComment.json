@@ -1,0 +1,19 @@
+{
+  "name": "typescript_webpac_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^8.0.3",//webpackにts→jsのコンパイル方法を教える
+    "typescript": "^4.0.2",//グローバルにインストールしてなくても良い、バージョンを明確に指定、
+    "webpack": "^4.44.2",//ts→jsへのコンパイル、minify化
+    "webpack-cli": "^3.3.12",//webpackをコマンドライン必要
+    "webpack-dev-server": "^3.11.0"//webサーバーとして機能。変更を監視、再レンダリング
+  }
+}
